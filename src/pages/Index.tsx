@@ -418,9 +418,16 @@ const Index = () => {
               size="lg"
               variant="outline"
               className="border-orange-500 text-orange-300 hover:bg-orange-500/20"
+              asChild
             >
-              <Icon name="Play" className="mr-2" />
-              RuTube
+              <a
+                href="https://rutube.ru/channel/41180535/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Icon name="Play" className="mr-2" />
+                RuTube
+              </a>
             </Button>
           </div>
         </div>

@@ -308,9 +308,16 @@ const Index = () => {
               <Button
                 size="lg"
                 className="bg-gradient-to-r from-green-400 to-blue-500 hover:from-green-500 hover:to-blue-600 text-black font-bold"
+                asChild
               >
-                <Icon name="MessageCircle" className="mr-2" />
-                Готов к сотрудничеству
+                <a
+                  href="https://t.me/neosavr"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Icon name="MessageCircle" className="mr-2" />
+                  Готов к сотрудничеству
+                </a>
               </Button>
             </div>
 

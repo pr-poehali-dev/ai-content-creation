@@ -333,8 +333,15 @@ const Index = () => {
                     variant="outline"
                     size="sm"
                     className="border-indigo-400 text-indigo-300"
+                    asChild
                   >
-                    Подробнее
+                    <a
+                      href="https://www.youtube.com/shorts/Z4f5-lvU8wk"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Подробнее
+                    </a>
                   </Button>
                 </div>
               </CardContent>

@@ -108,7 +108,7 @@ const Index = () => {
                 <h3 className="text-xl font-bold mb-4 text-white">
                   Генерация Изображений
                 </h3>
-                <p className="text-gray-300 mb-4">
+                <p className="mb-4 text-slate-800">
                   Эксперт в Midjourney, Leonardo, Flux, Flexy
                 </p>
                 <Button
@@ -129,7 +129,7 @@ const Index = () => {
                 <h3 className="text-xl font-bold mb-4 text-white">
                   Видео производство
                 </h3>
-                <p className="text-gray-300 mb-4">
+                <p className="mb-4 text-slate-800">
                   Генерация видео, видеомонтаж и создание аватаров
                 </p>
                 <Button
@@ -153,7 +153,7 @@ const Index = () => {
                   />
                 </div>
                 <h3 className="text-xl font-bold mb-4 text-white">Аудио AI</h3>
-                <p className="text-gray-300 mb-4">
+                <p className="mb-4 text-slate-800">
                   Большой опыт работы с аудио нейросетями
                 </p>
                 <Button
@@ -174,7 +174,7 @@ const Index = () => {
                 <h3 className="text-xl font-bold mb-4 text-white">
                   Работа с чат-ботами
                 </h3>
-                <p className="text-gray-300 mb-4">
+                <p className="mb-4 text-slate-800">
                   ChatGPT, Claude, Gemini, DeepSeek, Qwen, Mistral
                 </p>
                 <Button

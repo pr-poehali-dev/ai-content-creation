@@ -387,9 +387,16 @@ const Index = () => {
               size="lg"
               variant="outline"
               className="border-red-500 text-red-300 hover:bg-red-500/20"
+              asChild
             >
-              <Icon name="Youtube" className="mr-2" />
-              YouTube
+              <a
+                href="https://www.youtube.com/@neosavr-n4v"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Icon name="Youtube" className="mr-2" />
+                YouTube
+              </a>
             </Button>
             <Button
               size="lg"

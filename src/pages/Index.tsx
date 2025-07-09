@@ -205,7 +205,7 @@ const Index = () => {
                   </div>
                 </div>
                 <div className="p-6">
-                  <p className="text-gray-300 mb-4">
+                  <p className="mb-4 text-slate-800">
                     Усовершенствованная система генерации изображений с
                     использованием нейронных сетей
                   </p>
@@ -236,7 +236,7 @@ const Index = () => {
                   </div>
                 </div>
                 <div className="p-6">
-                  <p className="text-gray-300 mb-4">
+                  <p className="mb-4 text-slate-800">
                     Обработка и улучшение звука в реальном времени с
                     использованием алгоритмов ИИ
                   </p>
@@ -262,7 +262,7 @@ const Index = () => {
                   </div>
                 </div>
                 <div className="p-6">
-                  <p className="text-gray-300 mb-4">
+                  <p className="mb-4 text-slate-800">
                     Синтез видео нового поколения с использованием современных
                     моделей ИИ
                   </p>

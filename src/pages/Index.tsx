@@ -9,7 +9,7 @@ const Index = () => {
       <nav className="fixed top-0 w-full z-50 bg-black/20 backdrop-blur-lg border-b border-white/10">
         <div className="container mx-auto px-6 py-4 flex justify-between items-center">
           <div className="font-bold text-2xl bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-            AI Studio
+            AI-Neosavr
           </div>
           <div className="hidden md:flex space-x-8">
             <a

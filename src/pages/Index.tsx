@@ -262,8 +262,13 @@ const Index = () => {
 
             <Card className="bg-gradient-to-br from-indigo-900/30 to-pink-900/30 border-indigo-500/30 hover:border-indigo-400/70 transition-all hover:scale-105 group">
               <CardContent className="p-0">
-                <div className="h-48 bg-gradient-to-br from-indigo-600 to-pink-600 rounded-t-lg relative overflow-hidden">
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
+                <div className="h-48 rounded-t-lg relative overflow-hidden">
+                  <img
+                    src="/img/f6ab6f74-5816-4282-807f-19ee3822ab99.jpg"
+                    alt="Video Generation AI"
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
                   <div className="absolute bottom-4 left-4 right-4">
                     <h3 className="text-xl font-bold text-white mb-2">
                       Video Generation AI

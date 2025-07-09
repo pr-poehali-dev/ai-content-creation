@@ -84,9 +84,16 @@ const Index = () => {
               size="lg"
               variant="outline"
               className="border-purple-500 text-purple-300 hover:bg-purple-500/20"
+              asChild
             >
-              <Icon name="Portfolio" className="mr-2" fallback="Briefcase" />
-              Портфолио
+              <a
+                href="https://www.youtube.com/@neosavr-n4v"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Icon name="Portfolio" className="mr-2" fallback="Briefcase" />
+                Портфолио
+              </a>
             </Button>
           </div>
         </div>

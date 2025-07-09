@@ -372,9 +372,16 @@ const Index = () => {
               size="lg"
               variant="outline"
               className="border-blue-500 text-blue-300 hover:bg-blue-500/20"
+              asChild
             >
-              <Icon name="Send" className="mr-2" />
-              Телеграм
+              <a
+                href="https://t.me/neosavr"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Icon name="Send" className="mr-2" />
+                Телеграм
+              </a>
             </Button>
             <Button
               size="lg"

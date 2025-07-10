@@ -26,9 +26,16 @@ const HeroSection = () => {
           <Button
             size="lg"
             className="bg-gradient-to-r from-green-400 to-blue-500 hover:from-green-500 hover:to-blue-600 text-black font-bold"
+            asChild
           >
-            <Icon name="Play" className="mr-2" />
-            Моя видеовизитка
+            <a
+              href="https://youtu.be/I9bs05SQCME"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Icon name="Play" className="mr-2" />
+              Моя видеовизитка
+            </a>
           </Button>
           <Button
             size="lg"
